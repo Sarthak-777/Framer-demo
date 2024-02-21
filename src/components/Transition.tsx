@@ -6,16 +6,16 @@ const Transition = () => {
   return (
     <>
       <motion.div
-        // initial={{ y: -250 }}
-        animate={{ y: [0, 100, 0] }}
-        // animate={{ y: 250 }}
+        initial={{ y: -250 }}
+        // animate={{ y: [0, 100, 0] }}
+        animate={{ y: 250 }}
         transition={{
           delay: 1,
-          // ease: "easeIn",
+          ease: "easeOut",
           repeat: Infinity,
-          // type: "spring",
+          type: "spring",
           // stiffness: 120,
-          // duration: 1,
+          // duration: 10,
         }}
       >
         <Ball />

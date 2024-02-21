@@ -1,5 +1,7 @@
 import "./App.css";
+import AnimateHook from "./components/AnimateHook";
 import AnimatePresenceExample from "./components/AnimatePresenceExample";
+import Gesture from "./components/Gesture";
 import Sequence from "./components/Sequence";
 import Transition from "./components/Transition";
 import XandY from "./components/XandY";
@@ -11,6 +13,8 @@ function App() {
       {/* <Sequence /> */}
       {/* <AnimatePresenceExample /> */}
       {/* <Transition /> */}
+      {/* <Gesture /> */}
+      <AnimateHook />
     </div>
   );
 }
