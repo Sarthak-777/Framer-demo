@@ -11,10 +11,10 @@ function App() {
     <div className="h-screen flex justify-center items-center">
       {/* <XandY /> */}
       {/* <Sequence /> */}
-      {/* <AnimatePresenceExample /> */}
+      <AnimatePresenceExample />
       {/* <Transition /> */}
       {/* <Gesture /> */}
-      <AnimateHook />
+      {/* <AnimateHook /> */}
     </div>
   );
 }
